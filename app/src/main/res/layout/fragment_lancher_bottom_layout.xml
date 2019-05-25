@@ -173,6 +173,5 @@
                 android:src="@drawable/icon_dic" />
         </LinearLayout>
 
-
     </LinearLayout>
 </LinearLayout>

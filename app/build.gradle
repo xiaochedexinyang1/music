@@ -25,7 +25,7 @@ android {
         versionCode 2
         versionName "2.0"
 
-        buildConfigField "String", "CLIENT_ID", '"ceb62135-38a7-42c3-b721-842f3ed596a8"'
+        buildConfigField "String", "CLIENT_ID", '"45bcae0b-c9f3-442a-9d91-38e6fbbd006a"'
 
         ndk {
             // Specifies the ABI configurations of your native

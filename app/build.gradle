@@ -88,4 +88,6 @@ dependencies {
     implementation('com.journeyapps:zxing-android-embedded:3.5.0') {
         exclude group: 'com.android.support'
     }
+    implementation 'com.nineoldandroids:library:2.4.0'
+
 }

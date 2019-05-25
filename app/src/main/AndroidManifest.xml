@@ -29,7 +29,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
 
         <meta-data
             android:name="com.amap.api.v2.apikey"
@@ -48,5 +49,10 @@
         <service android:name=".EngineService" />
         <service android:name="com.amap.api.location.APSService" />
         <service android:name=".TimeService" />
+
+        <activity
+            android:name=".more.MoreActivity"
+            android:screenOrientation="landscape"
+             />
     </application>
 </manifest>

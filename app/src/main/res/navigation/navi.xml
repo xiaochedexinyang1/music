@@ -11,7 +11,7 @@
         <action
             android:id="@+id/action_to_main_fragment"
             app:destination="@id/main_fragment"
-            tools:layout="@layout/fragment_main" />
+            tools:layout="@layout/fragment_launcher" />
 
         <action
             android:id="@+id/action_to_welcome_fragment"
@@ -21,8 +21,8 @@
     </fragment>
     <fragment
         android:id="@+id/main_fragment"
-        android:name="com.iflytek.cyber.iot.show.core.fragment.MainFragment"
-        tools:layout="@layout/fragment_main">
+        android:name="com.iflytek.cyber.iot.show.core.ment.LauncherFragment"
+        tools:layout="@layout/fragment_launcher">
 
         <action
             android:id="@+id/action_to_weather_fragment"

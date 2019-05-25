@@ -15,4 +15,8 @@
     <color name="textColorDarkPrimary">#ffffff</color>
     <color name="textColorDarkSecondary">#b3b3b3</color>
     <color name="textColorDarkTertiary">#7f7f7f</color>
+    <color name="color_333">#333333</color>
+    <color name="color_white">#fff</color>
+    <color name="color_blank">#000</color>
+    <color name="color_999">#999</color>
 </resources>
